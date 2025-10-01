@@ -45,8 +45,6 @@ li {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
 }
-/* ----------- Apparences dynamiques ------------ */
-
 /* 1. Souligner tous les liens au survol */
 a:hover {
   text-decoration: underline;
