@@ -45,3 +45,25 @@ li {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
 }
+/* ----------- Apparences dynamiques ------------ */
+
+/* 1. Souligner tous les liens au survol */
+a:hover {
+  text-decoration: underline;
+}
+
+/* 2. Lien CTA : couleur spéciale sans soulignement */
+a.cta {
+  color: #696484;
+  text-decoration: none;
+}
+
+a.cta:hover {
+  color: #8788BA;
+  text-decoration: none;
+}
+
+/* 3. Icônes header/footer : réduire l’opacité au survol */
+.icon:hover {
+  opacity: 0.5;
+}
